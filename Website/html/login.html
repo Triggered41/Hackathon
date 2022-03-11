@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        form {
+            border: 3px solid #f1f1f1;
+        }
+        input[type=text] ,
+        input[type=password]{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        button{
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            opacity: 0.8;
+        }
+        .cancelbtn {
+            width: auto;
+            padding: 10px 18px;
+            background-color: #f44336;
+        }
+
+        .imgcontainer{
+            text-align: center;
+            margin: 24px 0 12px 0;
+        }
+
+        img.avatar {
+            width: 10%;
+            border-radius: 50%;
+        }
+        .container {
+            padding: 16px;
+        }
+
+        span.psw {
+            float: right;
+            padding-top: 16px;
+        }
+
+        @media screen and (max-width: 300) {
+        span.psw {
+            display: block;
+            float: none;
+        }
+        .cancelbtn{
+            width: 100%;
+        }
+    }
+
+   </style>
+<body>
+    <h1 style="font-family:cursive;">Login Form</h1>
+    <!--Step 1 : Adding HTML-->
+    <!-- action="/action_page.php" -->
+    <form>
+        <div class="imgcontainer">
+            <img src="../img/img.21.png"
+            alt="Avatar" class="avatar">
+
+        </div>
+        <center><div class="container">
+            <label style="font-family: Futura;"><b>Username</b></label>
+                <br>
+            <input style="width: 500px; border-radius: 5px;" type="text" placeholder="Enter Username" name="uname" required>
+                <br>
+            <label style="font-family: futura;"><b>Password</b></label>
+                <br>
+            <input style="width: 500px; border-radius: 5px;" type="Password" placeholder="Enter Password" name="psw" required>
+                <br>
+            <button onclick="login_click()" style="width: 500px; border-radius: 10px;" type="submit">Login</button>
+                <br>
+            <input type="checkbox" checked="checked"> Remember me 
+
+        </div>
+    </center>
+    <div class="container" style="background-color: white">
+        <button style="border-radius: 5px;" onclick="on_click()" type="button" class="cancelbtn">Cancel</button>
+        <span class="psw"><a href="./forgetpass.html">Forget password?</a></span>
+
+    </div>
+      </form>
+
+      <!-- Scripts -->
+      <script src="../JS/login.js"></script>
+
+    </body>
+ </html>

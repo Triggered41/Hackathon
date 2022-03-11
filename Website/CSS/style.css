@@ -1,0 +1,26 @@
+.tab {
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: rgb(25, 201, 201);
+    border-collapse: collapse;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px black;
+}
+
+.tab tr td {
+    color: black;
+    background-color: white;
+    font-family: cursive;
+    padding: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.tab tr {
+    height: 50px;
+}
+
+.tab td:hover {
+    background-color: whitesmoke;
+}
