@@ -84,7 +84,7 @@
 }
 
 .bgimg .i1{
-    /* filter: blur(5px); */
+    filter: blur(5px);
     top: 40px;
     left: 200px;
     position: absolute;
@@ -108,6 +108,17 @@
     padding: 10px;
     margin-left: 200px;
     margin-right: 200px;
+}
+
+#list{
+
+    margin-left: -50;
+    font-size: larger;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#par{
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #dis{

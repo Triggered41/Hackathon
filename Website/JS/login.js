@@ -5,5 +5,5 @@ function on_click()
 
 function login_click()
 {
-    window.open("../html/table.html", "_self");
+    window.open("../html/Classes.html", "_self");
 }
