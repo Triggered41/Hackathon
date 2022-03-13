@@ -7,3 +7,8 @@ function login_click()
 {
     window.open("../html/Classes.html", "_self");
 }
+
+function val()
+{
+    console.log("OK OK uh")
+}

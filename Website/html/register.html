@@ -67,7 +67,8 @@
 <body>
     <!--Step 1 : Adding HTML-->
     <!-- action="/action_page.php" -->
-    <form method="post">
+    <!-- action="/submit" -->
+    <form id="form" method="POST">
         <div class="imgcontainer">
             <img src="../img/img.21.png"
             alt="Avatar" class="avatar">
@@ -83,23 +84,25 @@
         <br><br>
             <label style="font-family: futura;"><b>Email Address</b></label>
         <br>
-            <input style="width: 500px;" type="text" placeholder="Enter Email " name="uname" required>
+            <input name="email" style="width: 500px;" type="text" placeholder="Enter Email " name="uname" required>
         <br><br>
             <label style="font-family: futura;"><b>Phone Number</b></label>
         <br>
-            <input style="width: 500px;" type="text" placeholder="Enter Phone number" name="uname" required>
+            <input name="number" style="width: 500px;" type="text" placeholder="Enter Phone number" name="uname" required>
         <br><br>
             <label style="font-family: futura;"><b>Password</b></label>
         <br>
-            <input style="width: 500px;" type="Password" placeholder="Enter Password" name="psw" required>
+            <input name="psw" style="width: 500px;" type="Password" placeholder="Enter Password" name="psw" required>
         <br><br>
             <label style="font-family: futura;"><b>Confirm Password</b></label>
         <br>
-            <input style="width: 500px;" type="Password" placeholder="Confirm Password" name="psw" required>
+            <input name="confirm_psw" style="width: 500px;" type="Password" placeholder="Confirm Password" name="psw" required>
         <br><br>
-            <button style="width: 500px;" type="submit">Login</button>
+            <button style="width: 500px;" >Login</button>
+            <!-- type="submit" -->
 
         </div></center>
+
     <div class="container" style="background-color: white">
         <button onclick="cancel_click()" type="button" class="cancelbtn">Cancel</button>
         </a></span>
